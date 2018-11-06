@@ -1,0 +1,19 @@
+manifest.json
+
+  start_url: 設定啟動網頁, 也就是 index.html 的路徑
+
+sw.js
+
+  navigator.serviceWorker.register(path_1, {scope: path_2})
+
+    path_1: service worker 的路徑
+
+    path_2: service worker 工作範圍
+
+Github
+
+  manifest.json: start_url 要加入 Repository name: '/rccar/'
+
+  sw.js: path_1: '/rccar/sw.js'
+         path_2: '/rccar/'
+
