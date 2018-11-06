@@ -2,7 +2,7 @@
   "name": "Virtual Pet",
   "short_name": "Virtual Pet",
   "description": "A PokemonGo like Game",
-  "start_url": "/",
+  "start_url": "/virtualpet/",
   "background_color": "#000000",
   "theme_color": "#000000",
   "display": "fullscreen",
