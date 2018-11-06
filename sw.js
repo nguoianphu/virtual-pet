@@ -7,7 +7,7 @@
 // register service worker
 if ('serviceWorker' in navigator) { // if service worker API is available
   window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/sw.js', {scope: '/'}).then(function(registration) {
+      navigator.serviceWorker.register('/virtualpet/sw.js', {scope: '/virtualpet/'}).then(function(registration) {
           console.log('ServiceWorker registration successful with scope: ', registration.scope);
       }, function(err) {
           console.log('ServiceWorker registration failed: ', err);
@@ -17,33 +17,33 @@ if ('serviceWorker' in navigator) { // if service worker API is available
 
 var cacheName = 'virtualPet-v1'; /* Name your cache  */
 var filesToCache = [				 /* Files you wan to store in cache */
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/sw.js',
-  '/assets/images/icons/icon-72x72.png',
-  '/assets/images/icons/icon-96x96.png',
-  '/assets/images/icons/icon-128x128.png',
-  '/assets/images/icons/icon-144x144.png',
-  '/assets/images/icons/icon-152x152.png',
-  '/assets/images/icons/icon-192x192.png',
-  '/assets/images/icons/icon-384x384.png',
-  '/assets/images/icons/icon-512x512.png',
-  '/assets/images/apple.png',
-  '/assets/images/arrow.png',
-  '/assets/images/backyard.png',
-  '/assets/images/bar.png',
-  '/assets/images/candy.png',
-  '/assets/images/logo.png',
-  '/assets/images/pet.png',
-  '/assets/images/rotate.png',
-  '/assets/images/rubber_duck.png',
-  '/js/states/BootState.js',
-  '/js/states/GameState.js',
-  '/js/states/HomeState.js',
-  '/js/states/PreloadState.js',
-  '/js/main.js',
-  '/js/phaser.js',
+  '/virtualpet/',
+  '/virtualpet/index.html',
+  '/virtualpet/manifest.json',
+  '/virtualpet/sw.js',
+  '/virtualpet/assets/images/icons/icon-72x72.png',
+  '/virtualpet/assets/images/icons/icon-96x96.png',
+  '/virtualpet/assets/images/icons/icon-128x128.png',
+  '/virtualpet/assets/images/icons/icon-144x144.png',
+  '/virtualpet/assets/images/icons/icon-152x152.png',
+  '/virtualpet/assets/images/icons/icon-192x192.png',
+  '/virtualpet/assets/images/icons/icon-384x384.png',
+  '/virtualpet/assets/images/icons/icon-512x512.png',
+  '/virtualpet/assets/images/apple.png',
+  '/virtualpet/assets/images/arrow.png',
+  '/virtualpet/assets/images/backyard.png',
+  '/virtualpet/assets/images/bar.png',
+  '/virtualpet/assets/images/candy.png',
+  '/virtualpet/assets/images/logo.png',
+  '/virtualpet/assets/images/pet.png',
+  '/virtualpet/assets/images/rotate.png',
+  '/virtualpet/assets/images/rubber_duck.png',
+  '/virtualpet/js/states/BootState.js',
+  '/virtualpet/js/states/GameState.js',
+  '/virtualpet/js/states/HomeState.js',
+  '/virtualpet/js/states/PreloadState.js',
+  '/virtualpet/js/main.js',
+  '/virtualpet/js/phaser.js',
 ];
 
 
