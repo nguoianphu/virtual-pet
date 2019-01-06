@@ -21,5 +21,3 @@ var PreloadState = {
     this.state.start('HomeState');
   }
 };
-
-export default PreloadState

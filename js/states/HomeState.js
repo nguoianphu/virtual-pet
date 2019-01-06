@@ -20,5 +20,3 @@ var HomeState = {
     }
   }
 };
-
-export default HomeState

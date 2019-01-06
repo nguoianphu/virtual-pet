@@ -194,5 +194,3 @@ var GameState = {
 
   
 };
-
-export default GameState

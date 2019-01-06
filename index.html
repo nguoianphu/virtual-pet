@@ -3,23 +3,26 @@
 
 	<head>
 		<meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
-    <link rel="manifest" href="./manifest.json">
-    <link rel="icon" href="./assets/images/icons/icon-512x512.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
     <title>Learn Game Development at ZENVA.com</title>
-  </head>
-
-  <style>
-    body {
-      padding: 0px;
-      margin: 0px;
-      background-color: black;
-    }
-	</style>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="./assets/images/icon.png">
+		<script type="text/javascript" src="js/phaser.js"></script>		
+		<style>
+		  body {
+		    padding: 0px;
+		    margin: 0px;
+		    background-color: black;
+		  }
+		  </style>
+	</head>
 
 	<body>  
-    <script type="text/javascript" src="js/phaser.js"></script>		
-    <script type="module" src="js/main.js"></script>
+		<script src="js/states/GameState.js"></script>
+		<script src="js/states/PreloadState.js"></script>
+		<script src="js/states/BootState.js"></script>
+		<script src="js/states/HomeState.js"></script>
+    <script src="js/main.js"></script>
     <script src="./sw.js"></script>
 	</body>
 </html>

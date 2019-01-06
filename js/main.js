@@ -1,8 +1,3 @@
-import GameState from './states/GameState.js'
-import HomeState from './states/HomeState.js'
-import PreloadState from './states/PreloadState.js'
-import BootState from './states/BootState.js'
-
 //initiate the Phaser framework
 var game = new Phaser.Game(360, 640, Phaser.AUTO);
 

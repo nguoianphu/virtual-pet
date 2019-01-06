@@ -16,5 +16,3 @@ var BootState = {
   	this.state.start('PreloadState');
   }
 };
-
-export default BootState
